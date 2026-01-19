@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 06px;
+}
+
+.search input {
+    height: 20px;
+    width: 20vh;
+    border-radius: 3px;
+}
+
+.pic {
+    margin-top: 1px;
+}
+
+.pic img {
+    margin: auto;
+    width: 100vw;
+}
+
+.container {
+    min-height: calc(100vh - 9vh - 9vh);
+}
+
+.m1 {
+    margin: 25px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    max-width: 90vw;
+    margin: 20px auto;
+}
+.m2{
+    margin: 4px 0;
+}
+
+.cards{
+  display: flex;
+  overflow: scroll;
+}
+
+.card-item{
+    width: 10vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
